@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB36B0C32B6CDAF2009AC442 /* UnsplashAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB36B0C22B6CDAF2009AC442 /* UnsplashAppApp.swift */; };
+		BB36B0C52B6CDAF2009AC442 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB36B0C42B6CDAF2009AC442 /* ContentView.swift */; };
+		BB36B0C72B6CDAF3009AC442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB36B0C62B6CDAF3009AC442 /* Assets.xcassets */; };
+		BB36B0CA2B6CDAF3009AC442 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB36B0C92B6CDAF3009AC442 /* Preview Assets.xcassets */; };
+		BB36B0D42B6CDAF3009AC442 /* UnsplashAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB36B0D32B6CDAF3009AC442 /* UnsplashAppTests.swift */; };
+		BB36B0DE2B6CDAF3009AC442 /* UnsplashAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB36B0DD2B6CDAF3009AC442 /* UnsplashAppUITests.swift */; };
+		BB36B0E02B6CDAF3009AC442 /* UnsplashAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB36B0DF2B6CDAF3009AC442 /* UnsplashAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB36B0D02B6CDAF3009AC442 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB36B0B72B6CDAF2009AC442 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB36B0BE2B6CDAF2009AC442;
+			remoteInfo = UnsplashApp;
+		};
+		BB36B0DA2B6CDAF3009AC442 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB36B0B72B6CDAF2009AC442 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB36B0BE2B6CDAF2009AC442;
+			remoteInfo = UnsplashApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB36B0BF2B6CDAF2009AC442 /* UnsplashApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnsplashApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB36B0C22B6CDAF2009AC442 /* UnsplashAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashAppApp.swift; sourceTree = "<group>"; };
+		BB36B0C42B6CDAF2009AC442 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB36B0C62B6CDAF3009AC442 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB36B0C92B6CDAF3009AC442 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB36B0CF2B6CDAF3009AC442 /* UnsplashAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnsplashAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB36B0D32B6CDAF3009AC442 /* UnsplashAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashAppTests.swift; sourceTree = "<group>"; };
+		BB36B0D92B6CDAF3009AC442 /* UnsplashAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnsplashAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB36B0DD2B6CDAF3009AC442 /* UnsplashAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashAppUITests.swift; sourceTree = "<group>"; };
+		BB36B0DF2B6CDAF3009AC442 /* UnsplashAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB36B0BC2B6CDAF2009AC442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB36B0CC2B6CDAF3009AC442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB36B0D62B6CDAF3009AC442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB36B0B62B6CDAF2009AC442 = {
+			isa = PBXGroup;
+			children = (
+				BB36B0C12B6CDAF2009AC442 /* UnsplashApp */,
+				BB36B0D22B6CDAF3009AC442 /* UnsplashAppTests */,
+				BB36B0DC2B6CDAF3009AC442 /* UnsplashAppUITests */,
+				BB36B0C02B6CDAF2009AC442 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB36B0C02B6CDAF2009AC442 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB36B0BF2B6CDAF2009AC442 /* UnsplashApp.app */,
+				BB36B0CF2B6CDAF3009AC442 /* UnsplashAppTests.xctest */,
+				BB36B0D92B6CDAF3009AC442 /* UnsplashAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB36B0C12B6CDAF2009AC442 /* UnsplashApp */ = {
+			isa = PBXGroup;
+			children = (
+				BB36B0C22B6CDAF2009AC442 /* UnsplashAppApp.swift */,
+				BB36B0C42B6CDAF2009AC442 /* ContentView.swift */,
+				BB36B0C62B6CDAF3009AC442 /* Assets.xcassets */,
+				BB36B0C82B6CDAF3009AC442 /* Preview Content */,
+			);
+			path = UnsplashApp;
+			sourceTree = "<group>";
+		};
+		BB36B0C82B6CDAF3009AC442 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB36B0C92B6CDAF3009AC442 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB36B0D22B6CDAF3009AC442 /* UnsplashAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB36B0D32B6CDAF3009AC442 /* UnsplashAppTests.swift */,
+			);
+			path = UnsplashAppTests;
+			sourceTree = "<group>";
+		};
+		BB36B0DC2B6CDAF3009AC442 /* UnsplashAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB36B0DD2B6CDAF3009AC442 /* UnsplashAppUITests.swift */,
+				BB36B0DF2B6CDAF3009AC442 /* UnsplashAppUITestsLaunchTests.swift */,
+			);
+			path = UnsplashAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB36B0BE2B6CDAF2009AC442 /* UnsplashApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB36B0E32B6CDAF3009AC442 /* Build configuration list for PBXNativeTarget "UnsplashApp" */;
+			buildPhases = (
+				BB36B0BB2B6CDAF2009AC442 /* Sources */,
+				BB36B0BC2B6CDAF2009AC442 /* Frameworks */,
+				BB36B0BD2B6CDAF2009AC442 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnsplashApp;
+			productName = UnsplashApp;
+			productReference = BB36B0BF2B6CDAF2009AC442 /* UnsplashApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB36B0CE2B6CDAF3009AC442 /* UnsplashAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB36B0E62B6CDAF3009AC442 /* Build configuration list for PBXNativeTarget "UnsplashAppTests" */;
+			buildPhases = (
+				BB36B0CB2B6CDAF3009AC442 /* Sources */,
+				BB36B0CC2B6CDAF3009AC442 /* Frameworks */,
+				BB36B0CD2B6CDAF3009AC442 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB36B0D12B6CDAF3009AC442 /* PBXTargetDependency */,
+			);
+			name = UnsplashAppTests;
+			productName = UnsplashAppTests;
+			productReference = BB36B0CF2B6CDAF3009AC442 /* UnsplashAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB36B0D82B6CDAF3009AC442 /* UnsplashAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB36B0E92B6CDAF3009AC442 /* Build configuration list for PBXNativeTarget "UnsplashAppUITests" */;
+			buildPhases = (
+				BB36B0D52B6CDAF3009AC442 /* Sources */,
+				BB36B0D62B6CDAF3009AC442 /* Frameworks */,
+				BB36B0D72B6CDAF3009AC442 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB36B0DB2B6CDAF3009AC442 /* PBXTargetDependency */,
+			);
+			name = UnsplashAppUITests;
+			productName = UnsplashAppUITests;
+			productReference = BB36B0D92B6CDAF3009AC442 /* UnsplashAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB36B0B72B6CDAF2009AC442 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					BB36B0BE2B6CDAF2009AC442 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					BB36B0CE2B6CDAF3009AC442 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BB36B0BE2B6CDAF2009AC442;
+					};
+					BB36B0D82B6CDAF3009AC442 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BB36B0BE2B6CDAF2009AC442;
+					};
+				};
+			};
+			buildConfigurationList = BB36B0BA2B6CDAF2009AC442 /* Build configuration list for PBXProject "UnsplashApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB36B0B62B6CDAF2009AC442;
+			productRefGroup = BB36B0C02B6CDAF2009AC442 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB36B0BE2B6CDAF2009AC442 /* UnsplashApp */,
+				BB36B0CE2B6CDAF3009AC442 /* UnsplashAppTests */,
+				BB36B0D82B6CDAF3009AC442 /* UnsplashAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB36B0BD2B6CDAF2009AC442 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB36B0CA2B6CDAF3009AC442 /* Preview Assets.xcassets in Resources */,
+				BB36B0C72B6CDAF3009AC442 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB36B0CD2B6CDAF3009AC442 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB36B0D72B6CDAF3009AC442 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB36B0BB2B6CDAF2009AC442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB36B0C52B6CDAF2009AC442 /* ContentView.swift in Sources */,
+				BB36B0C32B6CDAF2009AC442 /* UnsplashAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB36B0CB2B6CDAF3009AC442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB36B0D42B6CDAF3009AC442 /* UnsplashAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB36B0D52B6CDAF3009AC442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB36B0E02B6CDAF3009AC442 /* UnsplashAppUITestsLaunchTests.swift in Sources */,
+				BB36B0DE2B6CDAF3009AC442 /* UnsplashAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB36B0D12B6CDAF3009AC442 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB36B0BE2B6CDAF2009AC442 /* UnsplashApp */;
+			targetProxy = BB36B0D02B6CDAF3009AC442 /* PBXContainerItemProxy */;
+		};
+		BB36B0DB2B6CDAF3009AC442 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB36B0BE2B6CDAF2009AC442 /* UnsplashApp */;
+			targetProxy = BB36B0DA2B6CDAF3009AC442 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BB36B0E12B6CDAF3009AC442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB36B0E22B6CDAF3009AC442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB36B0E42B6CDAF3009AC442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UnsplashApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = phothinh.UnsplashApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB36B0E52B6CDAF3009AC442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UnsplashApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = phothinh.UnsplashApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB36B0E72B6CDAF3009AC442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = phothinh.UnsplashAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnsplashApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UnsplashApp";
+			};
+			name = Debug;
+		};
+		BB36B0E82B6CDAF3009AC442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = phothinh.UnsplashAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnsplashApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UnsplashApp";
+			};
+			name = Release;
+		};
+		BB36B0EA2B6CDAF3009AC442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = phothinh.UnsplashAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UnsplashApp;
+			};
+			name = Debug;
+		};
+		BB36B0EB2B6CDAF3009AC442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = phothinh.UnsplashAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UnsplashApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB36B0BA2B6CDAF2009AC442 /* Build configuration list for PBXProject "UnsplashApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB36B0E12B6CDAF3009AC442 /* Debug */,
+				BB36B0E22B6CDAF3009AC442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB36B0E32B6CDAF3009AC442 /* Build configuration list for PBXNativeTarget "UnsplashApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB36B0E42B6CDAF3009AC442 /* Debug */,
+				BB36B0E52B6CDAF3009AC442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB36B0E62B6CDAF3009AC442 /* Build configuration list for PBXNativeTarget "UnsplashAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB36B0E72B6CDAF3009AC442 /* Debug */,
+				BB36B0E82B6CDAF3009AC442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB36B0E92B6CDAF3009AC442 /* Build configuration list for PBXNativeTarget "UnsplashAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB36B0EA2B6CDAF3009AC442 /* Debug */,
+				BB36B0EB2B6CDAF3009AC442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB36B0B72B6CDAF2009AC442 /* Project object */;
+}
